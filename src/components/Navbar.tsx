@@ -7,7 +7,7 @@ function Navbar() {
         <Logo className="fill-current text-red-500" />
 
         <div className="flex items-center gap-8">
-          <img src="/public/icon-hamburger.svg" className="md:hidden" />
+          <img src="/icon-hamburger.svg" className="md:hidden" />
 
           <ul className="text-custom-Blue-950 hidden gap-8 uppercase md:flex">
             <li className="cursor-pointer">features</li>
