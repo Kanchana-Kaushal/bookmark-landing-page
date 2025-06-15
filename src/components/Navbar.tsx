@@ -10,12 +10,18 @@ function Navbar() {
           <img src="/icon-hamburger.svg" className="md:hidden" />
 
           <ul className="text-custom-Blue-950 hidden gap-8 uppercase md:flex">
-            <li className="cursor-pointer">features</li>
-            <li className="cursor-pointer">pricing</li>
-            <li className="cursor-pointer">contact</li>
+            <li className="hover:text-custom-Red-400 cursor-pointer transition">
+              features
+            </li>
+            <li className="hover:text-custom-Red-400 cursor-pointer transition">
+              pricing
+            </li>
+            <li className="hover:text-custom-Red-400 cursor-pointer transition">
+              contact
+            </li>
           </ul>
 
-          <button className="bg-custom-Red-400 text-custom-Grey-50 hidden cursor-pointer rounded-sm px-6 py-2 uppercase drop-shadow-lg md:flex">
+          <button className="bg-custom-Red-400 text-custom-Grey-50 ring-custom-Red-400 hover:text-custom-Red-400 hidden cursor-pointer rounded-sm px-6 py-2 uppercase drop-shadow-lg transition hover:bg-white hover:ring-1 md:flex">
             login
           </button>
         </div>
