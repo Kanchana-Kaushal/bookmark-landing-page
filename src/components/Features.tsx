@@ -41,6 +41,7 @@ function Features() {
               (feature: string, index) => (
                 <div
                   className={`text-custom-Blue-950 border-t-2 border-gray-100 last:border-b-2 md:border-0 md:last:border-0`}
+                  key={index}
                 >
                   <p
                     className={`border-custom-Red-400 hover:text-custom-Red-400 mx-auto w-fit py-3 transition ${selectedFeatureIndex === index ? "border-b-4 text-black" : "text-gray-400"} cursor-pointer md:p-5 md:text-lg`}
