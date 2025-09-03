@@ -4,8 +4,8 @@ function Hero() {
       <section className="font-rubik relative mt-8 flex-row-reverse items-center justify-between md:flex">
         <div className="relative md:w-1/2">
           <img
-            src="/illustration-hero.svg"
-            alt=""
+            src="/bookmark-landing-page/illustration-hero.svg"
+            alt="Hero"
             className="mx-auto w-9/10 md:mx-0"
           />
           <div className="bg-custom-Blue-600 absolute top-3/12 right-0 -z-50 min-h-8/10 w-8/10 rounded-l-full" />

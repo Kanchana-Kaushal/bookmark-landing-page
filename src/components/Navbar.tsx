@@ -48,13 +48,13 @@ function Navbar() {
 
       {isMenuShown ? (
         <img
-          src="/icon-close.svg"
+          src="/bookmark-landing-page/icon-close.svg"
           className="z-20 cursor-pointer md:hidden"
           onClick={() => setIsMenuShown(false)}
         />
       ) : (
         <img
-          src="/icon-hamburger.svg"
+          src="/bookmark-landing-page/icon-hamburger.svg"
           className="cursor-pointer md:hidden"
           onClick={() => setIsMenuShown(true)}
         />

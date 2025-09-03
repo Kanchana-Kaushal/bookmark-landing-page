@@ -44,7 +44,7 @@ function SignUp() {
                 />
 
                 <img
-                  src="/icon-error.svg"
+                  src="/bookmark-landing-page/icon-error.svg"
                   alt="error-icon"
                   className={`${isEmailValid ? "hidden" : "absolute"} top-1/2 right-2.5 -translate-y-1/2`}
                 />

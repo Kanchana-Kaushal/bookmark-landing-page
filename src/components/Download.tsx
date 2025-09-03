@@ -14,7 +14,7 @@ function DownLoadExtension() {
           <div className="rounded-2xl bg-white shadow-xl md:max-w-xs">
             <div className="p-8">
               <img
-                src="/logo-chrome.svg"
+                src="/bookmark-landing-page/logo-chrome.svg"
                 alt="chrome logo"
                 className="mx-auto"
               />
@@ -22,7 +22,7 @@ function DownLoadExtension() {
               <p className="text-sm text-gray-400">Minimum version 62</p>
             </div>
 
-            <img src="/bg-dots.svg" className="w-full" />
+            <img src="/bookmark-landing-page/bg-dots.svg" className="w-full" />
 
             <button className="bg-custom-Blue-600 text-custom-Grey-50 ring-custom-Blue-600 hover:text-custom-Blue-600 m-6 cursor-pointer rounded-md px-6 py-3 transition hover:bg-white hover:ring-1">
               Add & Install Extension
@@ -32,7 +32,7 @@ function DownLoadExtension() {
           <div className="rounded-2xl bg-white shadow-xl md:mt-16 md:max-w-xs">
             <div className="p-8">
               <img
-                src="/logo-firefox.svg"
+                src="/bookmark-landing-page/logo-firefox.svg"
                 alt="firefox logo"
                 className="mx-auto"
               />
@@ -40,7 +40,7 @@ function DownLoadExtension() {
               <p className="text-sm text-gray-400">Minimum version 55</p>
             </div>
 
-            <img src="/bg-dots.svg" className="w-full" />
+            <img src="/bookmark-landing-page/bg-dots.svg" className="w-full" />
 
             <button className="bg-custom-Blue-600 text-custom-Grey-50 ring-custom-Blue-600 hover:text-custom-Blue-600 m-6 cursor-pointer rounded-md px-6 py-3 transition hover:bg-white hover:ring-1">
               Add & Install Extension
@@ -49,12 +49,16 @@ function DownLoadExtension() {
 
           <div className="rounded-2xl bg-white shadow-xl md:mt-32 md:max-w-xs">
             <div className="p-8">
-              <img src="/logo-opera.svg" alt="opera logo" className="mx-auto" />
+              <img
+                src="/bookmark-landing-page/logo-opera.svg"
+                alt="opera logo"
+                className="mx-auto"
+              />
               <h3 className="mt-6 text-xl font-semibold">Add to Opera</h3>
               <p className="text-sm text-gray-400">Minimum version 46</p>
             </div>
 
-            <img src="/bg-dots.svg" className="w-full" />
+            <img src="/bookmark-landing-page/bg-dots.svg" className="w-full" />
 
             <button className="bg-custom-Blue-600 text-custom-Grey-50 ring-custom-Blue-600 hover:text-custom-Blue-600 m-6 cursor-pointer rounded-md px-6 py-3 transition hover:bg-white hover:ring-1">
               Add & Install Extension
