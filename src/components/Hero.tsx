@@ -12,9 +12,9 @@ function Hero() {
         </div>
 
         <article className="mt-12 items-center justify-center md:mt-0 md:flex md:w-1/2">
-          <div className="mx-auto w-8/10 space-y-6 text-center md:max-w-md md:space-y-8 md:text-left">
-            <h1 className="text-custom-Blue-950 text-2xl font-semibold md:text-5xl">
-              A simple Bookmark Manager
+          <div className="mx-auto w-8/10 space-y-6 text-center md:max-w-lg md:space-y-8 md:text-left">
+            <h1 className="text-custom-Blue-950 text-3xl font-semibold md:text-5xl">
+              A Simple Bookmark Manager
             </h1>
 
             <p className="text-sm text-gray-400 md:text-lg">
