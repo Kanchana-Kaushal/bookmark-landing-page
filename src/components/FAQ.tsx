@@ -59,7 +59,7 @@ function FAQ() {
 
   return (
     <>
-      <section className="font-rubik mx-auto my-25 w-8/10 text-center md:mt-50">
+      <section className="font-rubik mx-auto my-20 w-8/10 text-center md:mt-50">
         <h2 className="text-custom-Blue-950 text-2xl font-bold md:text-4xl">
           Frequently Asked Questions
         </h2>
